@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/abc_vector_test" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung Seberapa Introvert, Ekstrovert  dan  Ambivert  Anda"
+            android:textAlignment="center"
+            android:textColor="#333131"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/int1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Suka Jadi Pusat Perhatian" />
+
+        <CheckBox
+            android:id="@+id/int2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Belajar dari mencoba/" />
+
+        <CheckBox
+            android:id="@+id/int3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Berani mengambil resiko/" />
+
+        <CheckBox
+            android:id="@+id/int4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Bertindak dalam tekanan" />
+
+        <CheckBox
+            android:id="@+id/int5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Sangat suka bergaul" />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/eks1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suka menyendiri" />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/eks2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tidak berani ambil resiko" />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/eks3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manrik diri dari tekanan" />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/eks4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berpikir sebelum berkata" />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/eks5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selektif memilih teman" />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/amb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Karismatik" />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/amb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kejang Perut" />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/amb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berjiwa social tinggi" />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/amb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tidak malu menyuarakan pendapat " />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/amb5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senang bersosialisasi" />
+
+        <CheckBox
+            android:id="@+id/cx_muntah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Suka kerja tim" />
+
+
+
+        <Button
+            android:id="@+id/btn_diagnosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cek Kepribadian Anda" />
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/tv_result1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/tv_result2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/tv_result3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
